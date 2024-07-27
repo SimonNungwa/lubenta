@@ -19,18 +19,23 @@ const Nav = () => {
 
     return (
         <>
-            <nav className="bg-blue-600 text-white py-4">
+            <nav className="bg-yellow-600 text-white py-4">
                 <div className="container mx-auto px-4 flex justify-between items-center">
                     <div className="text-2xl font-bold">Lubbenta</div>
-                    <div className="flex space-x-6 items-center">
+                    <div className="hidden md:flex space-x-6 items-center">
                         <ul className="flex space-x-6 items-center">
                             <li><a href="#about" className="hover:text-gray-300">About</a></li>
                             <li><a href="#services" className="hover:text-gray-300">Services</a></li>
                             <li><a href="#contact" className="hover:text-gray-300">Contact</a></li>
                         </ul>
                         <SearchBar />
-                        <button onClick={openModal} className="bg-white text-blue-600 py-2 px-4 rounded hover:bg-blue-200">
+                        <button onClick={openModal} className="bg-white text-black py-2 px-4 rounded hover:bg-blue-200">
                             Sign Up
+                        </button>
+                    </div>
+                    <div className="md:hidden">
+                        <button onClick={openModal} className="bg-white text-black py-2 px-4 rounded hover:bg-blue-200">
+                            Menu
                         </button>
                     </div>
                 </div>
