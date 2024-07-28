@@ -9,7 +9,7 @@ const Nav = () => {
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
 
-    // Example carousel items
+    
     const categories = [
         { title: 'Art', description: 'Beautiful artworks and sculptures.' },
         { title: 'Electronics', description: 'Latest gadgets and devices.' },

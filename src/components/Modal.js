@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Modal = ({ isOpen, onClose }) => {
-    const [view, setView] = useState('signup'); // Default to Sign Up view
+    const [view, setView] = useState('signup'); 
 
     if (!isOpen) return null;
 
