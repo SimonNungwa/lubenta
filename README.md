@@ -1,8 +1,3 @@
-
-Here's your README content written in Markdown:
-
-markdown
-Copy code
 # Lubenta - Auction Site
 
 Welcome to Lubenta, the ultimate auction site where your dreams of snagging that rare collectible, the latest gadget, or just about anything else can come true. Built with React and Tailwind CSS, Lubenta is designed to be fast, sleek, and ridiculously easy to use. If you're into auctions, or just like browsing cool stuff, this is your playground.
